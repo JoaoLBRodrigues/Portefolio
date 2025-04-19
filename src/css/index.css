@@ -1,0 +1,106 @@
+body {
+    height: 100vh; 
+    margin: 0; 
+    border: 3px solid green;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(62deg, #EE7752, #23317E, #23A6D5, #23D5AB);
+    animation: gradient 15s ease infinite; 
+    background-size: 400% 400%;
+}
+
+@keyframes gradient{
+    0% {
+      background-position: 0 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+       background-position: 0% 50%;
+    }
+  }
+
+.container-menu {
+    background-color: rgba(16 18 27 / 40%);
+    height: 600px;
+    max-height: 100%;
+    width: 980px;
+    max-width: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    position: relative;
+    border-radius: 20px;
+}
+
+.data-content {
+   
+  height: calc(600px - 3em);
+  overflow-y: auto; 
+  -ms-overflow-style: none; /* Hide scrollbar in Internet Explorer/Edge */
+  scrollbar-width: none
+}
+
+.content-section {
+  min-height: 250px; /* Ensure sections are tall enough for scrolling */
+}
+
+
+@media (max-width:720px) {
+    .container-menu {
+        
+    }
+
+    .menu-a {
+      display: none;
+    }
+
+    .body-content h6 {
+      display: none;
+    }
+
+    .list-group-item:hover  {
+      background-color: transparent !important;
+    }
+}
+
+h2 {
+  color: white;
+}
+
+.me {
+  width: 44px;
+  object-fit: contain;
+  height: auto;
+}
+
+.educations-degree, .educations-degree:hover {
+  text-decoration: none;
+  color: black;
+  padding-left: 5px;
+  cursor: default;
+}
+
+.ipb {
+  height: auto;
+  width: 200px;
+  object-fit:cover;
+  align-self: center;
+}
+
+.xgo {
+  width: 80px;
+  object-fit:contain;
+  align-self: center;
+  padding: 10px;
+}
+
+.infracontrol {
+  width: 80px;
+  object-fit:contain;
+  align-self: center;
+  padding: 10px;
+}

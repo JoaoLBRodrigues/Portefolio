@@ -1,0 +1,31 @@
+
+
+.nav-bar {
+    height: 3.2em; /* Fixed height for nav bar */
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+
+.body-content {
+    height: calc(100% - 3em); 
+}
+
+.navbar-options {
+    text-align: end;
+}
+
+.material-icons {
+    font-size: 40px;
+}
+
+.cancel {
+    color:red;
+    cursor: pointer;
+}
+
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+  

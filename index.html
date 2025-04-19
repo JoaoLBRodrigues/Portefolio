@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title> Portifolio Profissional JLBR</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+    <link rel="stylesheet" href="./src/css/index.css">
+    <link rel="stylesheet" href="./src/css/layout/navbar.css">
+    <link rel="stylesheet" href="./src/css/layout/sidebar.css">
+    <link rel="stylesheet" href="./src/css/about.css">
+    <link rel="stylesheet" href="./src/css/skills.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+</head>
+  <body>
+    <div class="container-fluid container-menu">
+        <div class="row w-100 h-100">
+            <div class="col-12 px-0 px-md-2 ">
+                <div class="container-fluid h-100 px-0 px-md-2">
+                  <div class="row nav-bar">
+                    <div class="col-4 col-md-5 d-flex  align-items-center">
+                      <img src="./src/assets/me.jpg" alt="html" class="rounded-circle me ">
+                        <h6 class="mx-2" style="color: white;font-size: 16px !important;">João Rodrigues</h6>
+                    </div>
+                    <div class="col-8 col-md-7  navbar-options">
+                      <i class="material-icons cancel">cancel</i>
+                    </div>
+                  </div>
+                  <!--body container content-->
+                  <div class="row body-content  ">
+                    <div class="col-1 col-md-2 ps-0">
+                    <h6 class="pt-2 ps-2">Category</h6>
+                    <ol class="list-group ">
+                        <li class="list-group-item d-flex align-items-center"  onclick="ReceiveClick('About')"> <i class="material-icons list-icons px-1 ">person</i><span class="menu-a">About</span></li>
+                        <li class="list-group-item d-flex align-items-center"  onclick="ReceiveClick('Skills')" > <i class="material-icons list-icons px-1 ">rocket_launch</i><span class="menu-a">Skills</span></li>
+                        <li class="list-group-item d-flex align-items-center"  onclick="ReceiveClick('Educations')"> <i class="material-icons list-icons px-1 ">school</i><span class="menu-a">Educations</span></li>
+                        <li class="list-group-item d-flex align-items-center"  onclick="ReceiveClick('Projects')"> <i class="material-icons list-icons px-1 ">folder_open</i><span class="menu-a">Projects</span></li>
+                        <li class="list-group-item d-flex align-items-center"  onclick="ReceiveClick('Jobs')"> <i class="material-icons list-icons px-1 ">apartment</i><span class="menu-a">Jobs</span></li>
+                      </ol>
+                    <hr style="background-color: #6c757d;height:2px;">
+                    <h6 class="pt-1 ps-2">Social Media</h6>
+                    <ol class="list-group ">
+                      <a href="https://www.linkedin.com/in/jo%C3%A3o-rodrigues-6a2939242/" target="_blank" class="text-decoration-none">
+                        <li class="list-group-item d-flex align-items-center"  > <i href="#" class="fa fa-linkedin social-icons"></i><span class="menu-a">LinkedIn</span></li>
+                        </a>
+                        <a href="https://github.com/JoaoLBRodrigues" target="_blank" class="text-decoration-none">
+                          <li class="list-group-item d-flex align-items-center"  > <i href="#" class="fa fa-github social-icons"></i><span class="menu-a">GitHub</span></li>
+                        </a>
+                        <a href="mailto:rodrigues2001mdl@gmail.com" class="text-decoration-none">
+                          <li class="list-group-item d-flex align-items-center" > <i class="material-icons list-icons px-1 ">mail</i><span class="menu-a">Email</span></li>
+                       </a>
+                      </ol>
+                    </div>
+                    <div class="col-11 col-md-10 ">
+                      <div class="data-content">
+                        <!-- about-->
+                        <section id="about" class="content-section pt-4">
+                          <div class="card bio mt-2 mt-md-4">
+                            <div class="card-body">
+                              <h5 class="card-title">João Rodrigues</h5>
+                              <p class="card-text">Innovative Front-End Developer with
+                                1+ years of expertise in building responsive, 
+                                high-performance web applications using react, drupal, html. Passionate about design
+                                technology to solve complex problems. </p>
+                                <div class="btn-align">
+                                  <a href="./src/assets/curriculum.pdf" download="CV">
+                                    <button class="btn-cv" >Download CV</button>
+                                  </a>
+                                </div>
+                            </div>
+                          </div>
+                        </section>
+                        <!-- Skills-->
+ 
+                        <section id="skills" class="content-section mt-5 ">
+                          <div class="container-fluid">
+                            <div class="row justify-content-center">
+                          <h2 class="pb-4">Skills</h2>
+                                <div class="col-12 col-md-3 mt-3 mt-md-0">
+                                        <div class="card profile-card">
+                                            <div class="card-body text-center">
+                                                <img src="./src/assets/html.png" alt="html" class="rounded-circle skills-icons ">
+                                                <p class="card-text text-muted ">HTML</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--2-->
+                                <div class="col-12 col-md-3 mt-3 mt-md-0">
+                                  <div class="card profile-card">
+                                      <div class="card-body text-center">
+                                          <img src="./src/assets/react.png" alt="html" class="rounded-circle skills-icons ">
+                                          <p class="card-text text-muted ">React</p>
+                                  </div>
+                                </div>
+                              </div>
+
+                                <!--3-->
+                                <div class="col-12 col-md-3 mt-3 mt-md-0">
+                                  <div class="card profile-card">
+                                      <div class="card-body text-center">
+                                          <img src="./src/assets/css.png" alt="html" class="rounded-circle skills-icons ">
+                                          <p class="card-text text-muted ">CSS</p>
+                                  </div>
+                                </div>
+                              </div>
+
+                                <!--4-->
+                                <div class="col-12 col-md-3 mt-3 mt-md-0">
+                                  <div class="card profile-card">
+                                      <div class="card-body text-center">
+                                          <img src="./src/assets/sass.png" alt="html" class="rounded-circle skills-icons ">
+                                          <p class="card-text text-muted ">SCSS</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <!--5-->
+                              <div class="col-12 col-md-3 mt-3 ">
+                                <div class="card profile-card">
+                                    <div class="card-body text-center">
+                                        <img src="./src/assets/drupal.png" alt="html" class="rounded-circle skills-icons ">
+                                        <p class="card-text text-muted ">drupal</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>                         
+                        </section>
+                        <section id="educations" class="content-section mt-5">
+                          <div class="container-fluid">
+                            <div class="row">
+                          <h2 class="pb-4 ">Educations</h2>
+                              <div class="col-12 col-md-6 mt-3">
+                                <div class="card ">
+                                  <img src="./src/assets/logo_ipb.png" alt="html" class=" pt-2 ipb">
+                                  <div class="card-body pt-0">
+                                    <h6 class="card-title "> Instituto Politécnico de Bragança</h6>
+                                    <a class="educations-degree">Software Developer CTESP</a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-12 col-md-6 mt-3">
+                                <div class="card ">
+                                  <img src="./src/assets/logo_ipb.png" alt="html" class=" pt-2 ipb">
+                                  <div class="card-body pt-0">
+                                    <h6 class="card-title "> Instituto Politécnico de Bragança</h6>
+                                    <a class="educations-degree">Informatic &  Comunication Degree</a>
+                                  </div>
+                                </div>
+                            </div>
+                          </div>
+                            
+                        </section>
+                        <section id="projects" class="content-section">
+                          <div class="container-fluid">
+                            <div class="row">
+                               <h2 class="mb-2 mt-5">Projects</h2>
+                              <div class="col-12">
+
+                              </div>
+                            </div>
+                          </div>
+                          
+                        </section>
+                        <section id="jobs" class="content-section">
+                          <div class="container-fluid  mt-5">
+                            <div class="row">
+                          <h2 class="mb-4">Jobs</h2>
+
+                              <div class="col-12 col-md-6 mt-3">
+                                <div class="card ">
+                                  <div class="container-fluid">
+                                    <div class="row">
+                                      <div class="col-3">
+                                        <img src="./src/assets/xgo.jpg" alt="xgo" class=" pt-2 xgo">
+                                      </div>
+                                      <div class="col-9 text-center  py-2">
+                                        <h6 class="card-title "> XGO</h6>
+                                        <a class="educations-degree ">Front-End Developer</a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-12 col-md-6 mt-3">
+                                <div class="card ">
+                                  <div class="container-fluid">
+                                    <div class="row">
+                                      <div class="col-3">
+                                        <img src="./src/assets/infracontrol.png" alt="infracontrol" class=" pt-2 infracontrol">
+                                      </div>
+                                      <div class="col-9 text-center  py-2">
+                                        <h6 class="card-title "> Infracontrol</h6>
+                                        <a class="educations-degree ">System Developer</a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./src/js/index.js"></script>
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+</script> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>
